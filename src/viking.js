@@ -88,7 +88,7 @@ class War {
   //       return "Vikings and Saxons are still in the thick of battle."
   //     }
   //   }
-  showStatus = () => {
+  showStatus() {
     return !this.vikingArmy.length
       ? "Saxons have fought for their lives and survived another day..."
       : !this.saxonArmy.length
